@@ -25,7 +25,7 @@ st.write("---")
 
 # 2. Main Order Category Selection
 st.subheader("🥪 1. Choose Your Meal")
-order_type = st.radio("Select Category:", ["Kotas", "Footlong Russian Rolls", "No Food (Delivery Only Idea)"])
+order_type = st.radio("Select Category:", ["Kotas", "Footlong Russian Rolls"])
 
 selected_food = "None"
 food_price = 0
