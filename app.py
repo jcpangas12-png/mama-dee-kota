@@ -132,7 +132,7 @@ encoded_message = urllib.parse.quote(raw_message)
 
 # Mama Dee's fast-food cell routing contact line 
 mama_dee_number = "27688570125"
-whatsapp_url = f"https://wa.me{mama_dee_number}?text={encoded_message}"
+whatsapp_url = f"https://wa.me/{mama_dee_number}?text={encoded_message}"
 
 # Clean, bug-free redirect button setup
 st.link_button("🔥 SUBMIT ORDER VIA WHATSAPP", whatsapp_url)
